@@ -1,0 +1,184 @@
+#tinymce,
+body.wp-autoresize {
+  position: relative;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  #tinymce,
+  body.wp-autoresize {
+    letter-spacing: 0.05em;
+  }
+}
+
+#tinymce p,
+body.wp-autoresize p {
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #tinymce p,
+  body.wp-autoresize p {
+    margin: 1.2rem 0;
+  }
+}
+
+#tinymce ul,
+body.wp-autoresize ul {
+  position: relative;
+  list-style: disc;
+  padding-left: 1.8rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #tinymce ul,
+  body.wp-autoresize ul {
+    margin: 1.2rem 0;
+  }
+}
+
+#tinymce strong, #tinymce b,
+body.wp-autoresize strong,
+body.wp-autoresize b {
+  font-weight: bold;
+}
+
+#tinymce i,
+body.wp-autoresize i {
+  font-style: italic;
+}
+
+#tinymce a,
+body.wp-autoresize a {
+  position: relative;
+  color: inherit;
+  text-decoration: underline;
+}
+
+#tinymce img,
+body.wp-autoresize img {
+  max-width: 100%;
+  display: block;
+  margin-top: 2.0rem;
+  margin-bottom: 2.0rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #tinymce img,
+  body.wp-autoresize img {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+#tinymce h1, #tinymce h2,
+body.wp-autoresize h1,
+body.wp-autoresize h2 {
+  position: relative;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  font-weight: bold;
+  margin-top: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #tinymce h1, #tinymce h2,
+  body.wp-autoresize h1,
+  body.wp-autoresize h2 {
+    font-size: 1.8rem;
+    line-height: 3.0rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+#tinymce h3,
+body.wp-autoresize h3 {
+  position: relative;
+  font-size: 2.0rem;
+  line-height: 3.2rem;
+  font-weight: bold;
+  margin-top: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #tinymce h3,
+  body.wp-autoresize h3 {
+    font-size: 1.8rem;
+    line-height: 3.0rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+#tinymce h4,
+body.wp-autoresize h4 {
+  position: relative;
+  font-size: 1.8rem;
+  line-height: 3.0rem;
+  font-weight: bold;
+  margin-top: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #tinymce h4,
+  body.wp-autoresize h4 {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+#tinymce h5, #tinymce h6,
+body.wp-autoresize h5,
+body.wp-autoresize h6 {
+  position: relative;
+  font-weight: bold;
+  margin-top: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #tinymce h5, #tinymce h6,
+  body.wp-autoresize h5,
+  body.wp-autoresize h6 {
+    margin-top: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+#tinymce blockquote,
+body.wp-autoresize blockquote {
+  position: relative;
+  padding: 2.0rem 2.4rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: normal;
+  color: #000000;
+  border-radius: 1.6rem;
+  background: #FFFFFF;
+  margin-top: 2.0rem;
+  margin-bottom: 2.0rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #tinymce blockquote,
+  body.wp-autoresize blockquote {
+    padding: 2.0rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+}

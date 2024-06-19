@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+Theme Name: ワコー電気
+Author: Kimura
+Author URI: https://wordpress.org/
+Description: 私たちの「ワコー電気」テーマは、ブロックエディターの力を披露するように設計されています。 すべてのデフォルトブロックのカスタムスタイルを備えており、エディターに表示されるものがWebサイトに表示されるものと同じように表示されるように構築されています。
+Requires at least: 4.9.6
+Requires PHP: 5.2.4
+Version: 1.0
+Text Domain: ohashi-koumuten
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+/*
+ * Chrome renders extra-wide &nbsp; characters for the Hoefler Text font.
+ * This results in a jumping cursor when typing in both the Classic and block
+ * editors. The following font-face override fixes the issue by manually inserting
+ * a custom font that includes just a Hoefler Text space replacement for that
+ * character instead.
+ */
+
+#wpadminbar {
+  display: none;
+}
